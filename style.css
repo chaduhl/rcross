@@ -1,0 +1,101 @@
+/* General */
+
+.container {
+  width: 980px;
+}
+
+
+/* Header */
+
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #ddd;
+
+  font-family: sans-serif;
+  font-weight: 300;
+
+  font-size: 17px;
+  padding: 15px;
+}
+
+
+/* Menu */
+
+.header .menu {
+  float: right;
+  list-style: none;
+  margin-top:-45px;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #898989;
+}
+
+.about > img {
+    width: 450px;
+    float: left;
+    padding-top: 50px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    padding-top: 50px;
+}
+
+.hvr-sink > p {
+color: #43434C;
+text-decoration: none;
+font-family: 'Lobster', sans-serif;
+font-size: 50px;
+visibility: hidden;
+margin-top: -90px;
+margin-left: 110px;
+}
+
+.hvr-sink:hover > p {
+text-decoration: none;
+visibility: visible;
+}
+
+/* Sink */
+.hvr-sink {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+  text-decoration: none;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+.hvr-sink > img {
+    height: 100px;
+}
+
+.downloads > img{
+    height: 500px;
+    box-shadow: 0px 0px 40px #888888;
+    margin-top: 50px;
+}

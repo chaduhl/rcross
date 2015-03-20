@@ -23,6 +23,20 @@
     width: 100%;
 }
 
+.footer {
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size:15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #898989;
+}
+
 
 /* Menu */
 
@@ -30,6 +44,19 @@
   float: right;
   list-style: none;
   margin-top:-45px;
+}
+
+.footer .menu {
+  float: right;
+  list-style: none;
+  margin-top: -30px;
+}
+
+.footer .menu a {
+    font-size:15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #898989;
 }
 
 .menu > li {
